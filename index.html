@@ -21,6 +21,15 @@
         subtitleTrack.src = subtitleURL;
         subtitleTrack.srclang = "en";
         subtitleTrack.label = "English";
+
+        videoPlayer.appendChild(subtitleTrack);
+
+        subtitleTrack.mode = "showing";
+      });
+
+      videoPlayer.addEventListener("canplay", () => {
+        const subtitleTrack = document.createElement("track");
+        subtitleTrack.kind = "subtitles";
         subtitleTrack.src = subtitle;
         subtitleTrack.srclang = "ar";
         subtitleTrack.label = "Arbi";

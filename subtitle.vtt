@@ -1,25 +1,470 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:00.910
-Hey everybody
+00:00:00.970 --> 00:00:06.638
+En el último capítulo hemos visto sobre el inductor, cómo funciona, cómo
 
 2
-00:00:00.910 --> 00:00:02.900
-Welcome back to JasheleTechTV
+00:00:06.638 --> 00:00:09.000
+lo probamos
 
 3
-00:00:02.900 --> 00:00:04.000
-If you're new to the channel
+00:00:09.000 --> 00:00:14.500
+y hemos visto teóricamente cómo un inductor puede cargarse
 
 4
-00:00:04.000 --> 00:00:05.170
-It's nice to meet you.
+00:00:14.500 --> 00:00:16.000
+en campo magnético
 
 5
-00:00:05.170 --> 00:00:06.500
-My name is Jashele 
+00:00:16.000 --> 00:00:19.889
+vamos a hacer lo mismo en este capítulo, vamos
 
 6
-00:00:06.500 --> 00:00:09.600
-And this channel is all about sharing my tech journey.
+00:00:19.889 --> 00:00:21.000
+hacerlo practicamente
+
+7
+00:00:21.000 --> 00:00:26.158
+y vamos a ver como el comportamiento de un inductor en nuestro
+
+8
+00:00:26.158 --> 00:00:28.000
+placa de circuito o placa PCB
+
+9
+00:00:28.000 --> 00:00:34.000
+hemos hecho un pequeño circuito aquí
+
+10
+00:00:34.000 --> 00:00:39.923
+a través de este circuito podemos saber cómo se comportará un inductor
+
+11
+00:00:39.923 --> 00:00:41.000
+en circuito
+
+12
+00:00:41.000 --> 00:00:45.000
+hemos usado algunas cosas en este circuito
+
+13
+00:00:45.000 --> 00:00:51.000
+así es fuente de voltaje que es una batería de 2V
+
+14
+00:00:51.000 --> 00:00:56.000
+después de esto, hemos usado un interruptor para encender y apagar
+
+15
+00:00:56.000 --> 00:01:00.000
+y este es nuestro componente principal que es un inductor
+
+16
+00:01:00.000 --> 00:01:05.600
+y aquí hemos usado un LED que es un diodo emisor de luz de
+
+17
+00:01:05.600 --> 00:01:06.000
+2V
+
+18
+00:01:06.000 --> 00:01:11.000
+ahora si hablo del funcionamiento del circuito como va a funcionar
+
+19
+00:01:11.000 --> 00:01:18.000
+aquí hemos conectado este inductor y este LED en paralelo
+
+20
+00:01:18.000 --> 00:01:22.480
+ahora, si hablamos de LED, un lado del LED es el cátodo, que es
+
+21
+00:01:22.480 --> 00:01:26.000
+lado negativo y otro lado es el ánodo que es el lado positivo
+
+22
+00:01:26.000 --> 00:01:30.286
+si damos positivo en el ánodo y negativo en el cátodo entonces LED
+
+23
+00:01:30.286 --> 00:01:31.000
+brillará
+
+24
+00:01:31.000 --> 00:01:34.714
+si hablamos de inductor, no hay un sistema más o menos en
+
+25
+00:01:34.714 --> 00:01:35.000
+inductor
+
+26
+00:01:35.000 --> 00:01:38.652
+si ve que esto es un inductor, no hay un sistema más o menos
+
+27
+00:01:38.652 --> 00:01:41.000
+en él, podemos usarlo de cualquier manera
+
+28
+00:01:41.000 --> 00:01:45.667
+podemos cargarlo de cualquier manera, se cargará solo de la misma
+
+29
+00:01:45.667 --> 00:01:46.000
+forma
+
+30
+00:01:46.000 --> 00:01:53.944
+ahora aqui si ven el punto positivo de esto se le da a
+
+31
+00:01:53.944 --> 00:01:57.000
+inductor y cátodo de LED
+
+32
+00:01:57.000 --> 00:02:00.529
+cuando cerraremos el circuito de esta manera, entonces nuestra corriente
+
+33
+00:02:00.529 --> 00:02:02.000
+saldrá de positivo
+
+34
+00:02:02.000 --> 00:02:06.000
+y antes que nada irá dentro de este inductor
+
+35
+00:02:06.000 --> 00:02:09.920
+porque si ves aquí, irá cerca de LED pero en ese momento
+
+36
+00:02:09.920 --> 00:02:13.000
+si hablamos de LED, entonces el LED está en polarización inversa
+
+37
+00:02:13.000 --> 00:02:16.000
+se puede ver, lo que viene en negativo, positivo
+
+38
+00:02:16.000 --> 00:02:21.400
+por lo cual, la unión del LED será grande, su resistencia interna
+
+39
+00:02:21.400 --> 00:02:25.000
+será alto y la electrónica elige un camino pequeño
+
+40
+00:02:25.000 --> 00:02:29.790
+entonces, a partir de aquí, el inductor será un camino pequeño para él, por lo que la corriente
+
+41
+00:02:29.790 --> 00:02:32.000
+fluye desde el inductor de esta manera
+
+42
+00:02:32.000 --> 00:02:37.600
+y saldrá de esta manera y fluirá corriente en este
+
+43
+00:02:37.600 --> 00:02:38.000
+forma
+
+44
+00:02:38.000 --> 00:02:43.000
+en que estado estaba, cuando encendimos el circuito
+
+45
+00:02:43.000 --> 00:02:46.333
+cuando el circuito estaba cerrado, en esa condición, el flujo de corriente era
+
+46
+00:02:46.333 --> 00:02:47.000
+como esto
+
+47
+00:02:47.000 --> 00:02:52.714
+ahora te lo dije, cuando la corriente fluye dentro del inductor, entonces
+
+48
+00:02:52.714 --> 00:02:57.000
+se cargará en el campo magnético de esta manera
+
+49
+00:02:57.000 --> 00:03:01.421
+ahora porque nuestro LED estaba en polarización inversa en ese momento, por lo que
+
+50
+00:03:01.421 --> 00:03:03.000
+estar fuera en ese momento
+
+51
+00:03:03.000 --> 00:03:07.118
+cuando nuestro interruptor esté encendido, entonces el LED estará apagado porque es
+
+52
+00:03:07.118 --> 00:03:08.000
+en sesgo inverso
+
+53
+00:03:08.000 --> 00:03:13.091
+ahora que va a pasar, les dije que se cobrara en eso
+
+54
+00:03:13.091 --> 00:03:16.000
+condición cuando vamos a suministrar positivo y negativo
+
+55
+00:03:16.000 --> 00:03:20.643
+así que ahora hemos dado positivo por un lado y negativo por el otro
+
+56
+00:03:20.643 --> 00:03:21.000
+lado
+
+57
+00:03:21.000 --> 00:03:25.500
+nuestro inductor está en forma de campo magnético, almacenó el
+
+58
+00:03:25.500 --> 00:03:27.000
+cobrar de esta manera
+
+59
+00:03:27.000 --> 00:03:34.875
+ahora es el momento de usar este campo magnético, queremos ver cómo
+
+60
+00:03:34.875 --> 00:03:36.000
+funciona
+
+61
+00:03:36.000 --> 00:03:40.000
+cuando vamos a abrir el circuito de nuevo, significa cuando vamos a encender
+
+62
+00:03:40.000 --> 00:03:41.000
+fuera del circuito
+
+63
+00:03:41.000 --> 00:03:45.235
+en esa condición, el campo magnético volverá al lugar
+
+64
+00:03:45.235 --> 00:03:47.000
+de donde fue hecho
+
+65
+00:03:47.000 --> 00:03:51.000
+significa que se encogerá y colapsará
+
+66
+00:03:51.000 --> 00:03:55.737
+y cuando el campo magnético de nuestro inductor colapse, antes
+
+67
+00:03:55.737 --> 00:04:00.000
+dimos positivo aquí y negativo aquí para cobrar
+
+68
+00:04:00.000 --> 00:04:04.167
+ahora cuando su campo magnético colapsará, entonces su polaridad
+
+69
+00:04:04.167 --> 00:04:05.000
+cambiará
+
+70
+00:04:05.000 --> 00:04:10.778
+Te dije que si aquí le damos positivo a inductor y negativo
+
+71
+00:04:10.778 --> 00:04:13.000
+aquí y lo cobramos
+
+72
+00:04:13.000 --> 00:04:17.286
+entonces si quitamos el suministro de aquí, entonces nuestra polaridad
+
+73
+00:04:17.286 --> 00:04:18.000
+ser opuesto
+
+74
+00:04:18.000 --> 00:04:24.000
+por lo que podemos usar este campo magnético para encender el LED
+
+75
+00:04:24.000 --> 00:04:28.583
+entonces en la condición anterior, había positivo aquí y negativo
+
+76
+00:04:28.583 --> 00:04:29.000
+aquí
+
+77
+00:04:29.000 --> 00:04:32.000
+apagamos el circuito, aquí se puso positivo y aquí negativo
+
+78
+00:04:32.000 --> 00:04:35.929
+se volvió opuesto, tan pronto como nuestro inductor emita voltaje
+
+79
+00:04:35.929 --> 00:04:37.000
+en polaridad opuesta
+
+80
+00:04:37.000 --> 00:04:41.000
+ahora sabes que dondequiera que esté el campo magnético, hay electricidad,
+
+81
+00:04:41.000 --> 00:04:43.000
+significa que habrá algo de voltaje
+
+82
+00:04:43.000 --> 00:04:46.714
+así que cuando este campo magnético regrese a su lugar, entonces de
+
+83
+00:04:46.714 --> 00:04:49.000
+estos dos terminales, se emitirá algo de voltaje
+
+84
+00:04:49.000 --> 00:04:53.950
+ahora lo que pasa es, el voltaje que cargamos al inductor,
+
+85
+00:04:53.950 --> 00:04:58.000
+obtenemos corriente doble o triple del inductor
+
+86
+00:04:58.000 --> 00:05:02.400
+entonces, ¿qué sucederá aquí, cuando la polaridad cambie, entonces nuestro
+
+87
+00:05:02.400 --> 00:05:06.000
+la corriente fluirá desde el interior del LED de esta manera
+
+88
+00:05:06.000 --> 00:05:10.333
+así que aquí cuál será la salida del LED en el ánodo, a través del inductor,
+
+89
+00:05:10.333 --> 00:05:14.000
+será positivo y a través de esto será negativo
+
+90
+00:05:14.000 --> 00:05:18.000
+significa que cuando apagaremos el circuito, entonces nuestro LED brillará
+
+91
+00:05:18.000 --> 00:05:21.000
+por este campo magnetico
+
+92
+00:05:21.000 --> 00:05:24.818
+y cuando encendemos el circuito, entonces nuestro LED estará apagado
+
+93
+00:05:24.818 --> 00:05:27.000
+y en ese momento se cargará el inductor
+
+94
+00:05:27.000 --> 00:05:31.800
+asi que haremos lo mismo practicamente, que al cerrar este
+
+95
+00:05:31.800 --> 00:05:36.200
+circuito, se genera el campo magnético y al apagar el
+
+96
+00:05:36.200 --> 00:05:39.000
+circuito, el LED está encendido o no
+
+97
+00:05:39.000 --> 00:05:44.000
+así que cualquier diagrama que hayamos hecho aquí, lo hemos hecho así
+
+98
+00:05:44.000 --> 00:05:48.952
+ahora si ven aqui, he conectado el led en polarizacion inversa,
+
+99
+00:05:48.952 --> 00:05:52.000
+esta es la placa pequeña de LED, significa placa de ánodo
+
+100
+00:05:52.000 --> 00:05:57.294
+y aquí tenemos conectado cátodo, significa negativo, y aquí
+
+101
+00:05:57.294 --> 00:06:01.000
+hemos conectado positivo a través del interruptor
+
+102
+00:06:01.000 --> 00:06:04.158
+entonces cuando presione este interruptor, nuestro inductor obtendrá
+
+103
+00:06:04.158 --> 00:06:06.000
+el suministro y el LED también recibirán suministro
+
+104
+00:06:06.000 --> 00:06:08.294
+pero el LED estará en polarización inversa en ese momento, por lo que
+
+105
+00:06:08.294 --> 00:06:09.000
+estará apagado
+
+106
+00:06:09.000 --> 00:06:13.773
+así que cuando presione aquí, puede ver que el LED está apagado, cuando presione
+
+107
+00:06:13.773 --> 00:06:16.000
+déjalo, puedes ver el LED brillando
+
+108
+00:06:16.000 --> 00:06:21.000
+así que cuando soltamos este botón, solo se ilumina el LED
+
+109
+00:06:21.000 --> 00:06:25.500
+así que nuestro inductor funciona de esta manera, ahora nuestro LED está brillando porque
+
+110
+00:06:25.500 --> 00:06:27.000
+de este campo magnético
+
+111
+00:06:27.000 --> 00:06:30.000
+así que de esta manera nuestro inductor funciona
+
+112
+00:06:30.000 --> 00:06:33.429
+así que espero que puedas entender las cosas que hemos explicado
+
+113
+00:06:33.429 --> 00:06:34.000
+aquí prácticamente
+
+114
+00:06:34.000 --> 00:06:38.231
+también puedes practicar esto en casa y entender el comportamiento
+
+115
+00:06:38.231 --> 00:06:39.000
+de inductor
+
+116
+00:06:39.000 --> 00:06:42.714
+así que después de esto, tienes que volver a hacer la prueba y aumentar tu
+
+117
+00:06:42.714 --> 00:06:43.000
+conocimiento
+
