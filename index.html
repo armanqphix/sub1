@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Autoload Subtitle for MKV Video</title>
+  </head>
+  <body>
+    <video id="videoPlayer" controls></video>
+    <script>
+      const videoSource =
+        "https://api.onedrive.com/v1.0/shares/s!AtbDU6WSkdycoGa5ER_wfVYoXVdq/root/content";
+      const subtitleURL = "subtitle.vtt";
+
+      const videoPlayer = document.getElementById("videoPlayer");
+
+      videoPlayer.src = videoSource;
+
+      videoPlayer.addEventListener("canplay", () => {
+        const subtitleTrack = document.createElement("track");
+        subtitleTrack.kind = "subtitles";
+        subtitleTrack.src = subtitleURL;
+        subtitleTrack.srclang = "en";
+        subtitleTrack.label = "English";
+
+        videoPlayer.appendChild(subtitleTrack);
+
+        subtitleTrack.mode = "showing";
+      });
+    </script>
+  </body>
+</html>
